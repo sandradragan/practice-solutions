@@ -1,0 +1,57 @@
+College Mascots
+
+
+Name
+School
+City
+State
+
+Oski
+Univ. of California, Berkeley
+Berkeley
+California
+
+Joe Bruin
+UCLA
+Los Angeles
+California
+
+Traveler
+USC
+Los Angeles
+California
+
+Stanford Tree
+Stanford Univ.
+Stanford
+California
+
+Albert
+Univ. of Florida
+Gainesville
+Florida
+
+Sebastian
+Univ. of Miami
+Coral Gables
+Florida
+
+Willie
+Northwestern Univ.
+Evanston
+Illinois
+
+Mike
+LSU
+Baton Rouge
+Louisiana
+
+Brutus
+The Ohio State Univ.
+Columbus
+Ohio
+
+Bevo
+Univ. of Texas, Austin
+Austin
+Texas

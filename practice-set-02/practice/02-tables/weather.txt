@@ -1,0 +1,68 @@
+Coral Gables, Florida - Monthly Weather Averages
+
+
+
+Annual
+Temp: 75
+High: 78
+Low: 69
+
+Jan
+Temp: 68
+High: 72
+Low: 62
+
+Feb
+Temp: 68
+High: 73
+Low: 62
+
+Mar
+Temp: 71
+High: 75
+Low: 66
+
+Apr
+Temp: 73
+High: 78
+Low: 69
+
+May
+Temp: 77
+High: 82
+Low: 73
+
+Jun
+Temp: 80
+High: 84
+Low: 75
+
+Jul
+Temp: 82
+High: 86
+Low: 77
+
+Aug
+Temp: 82
+High: 86
+Low: 77
+
+Sep
+Temp: 80
+High: 86
+Low: 77
+
+Oct
+Temp: 78
+High: 82
+Low: 73
+
+Nov
+Temp: 73
+High: 77
+Low: 68
+
+Dec
+Temp: 69
+High: 75
+Low: 64

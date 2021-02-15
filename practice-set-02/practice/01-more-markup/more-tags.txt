@@ -1,0 +1,166 @@
+More Tags
+
+<!--
+  NOTE: The following set of tags are used for describing grouped content.
+-->
+
+<!--
+  Blockquotes
+-->
+
+"I always turn to the sports pages first, which records people's accomplishments. The front page has nothing but man's failures."
+-- Earl Warren, Supreme Court Chief Justice
+
+
+<!--
+  Figures:
+
+  Insert the included image of a map of Key West using the img tag. Use the text below as a figure caption. Mark up the image and caption as a figure.
+-->
+
+Map of Key West, U.S. Census Bureau
+
+
+<!--
+  Preformatted text:
+
+  This is going to be weird, so copy the next bit of content as-is, from the first letter of "Text", to the period.
+-->
+
+Text          with
+    lots     of                  spacing    like   this
+can only             be     pre-formmated   because
+HTML      is not    sensitive     to
+whitespace!
+
+
+<!--
+  Definition list:
+
+  Format the following as a definition list. The term is on one line and the definition immediately follows.
+-->
+
+
+hurricane
+A tropical cyclone which reaches maximum sustained wins of 75 mph.
+
+major hurricane
+A hurricane which is classified as category 3 or higher.
+
+storm surge
+The abnormal rise in sea level accompanying a hurricane.
+
+
+
+<!-- NOTE: The following tags are "inline" which means you are marking up content inside another tag, like a paragraph or list item. Be sure to mark up this content accordingly! -->
+
+
+<!--
+  Emphasis and Strong Emphasis:
+
+  Emphasize "really" in the first sentence.
+  Strongly emphasize it in the second.
+-->
+
+The Hurricanes are going to do really well this season.
+
+The Gators are going to do really well this season.
+
+
+
+<!--
+  Subscript:
+
+  Mark up H2O and H2SO4 with subscript.
+-->
+
+What Johnny is a chemist's son, but Johnny is no more. What Johnny thought was H2O, was H2SO4.
+
+
+
+<!--
+  Superscript:
+
+  Mark up 10^6 and 10^9 ... instead of using the carat (^), remove it and use superscript to show exponential notation.
+-->
+
+A Megabyte is 10^6 bytes. A gigabyte is 10^9 bytes.
+
+
+
+<!--
+  Keyboard Input:
+
+  Mark up "command-save".
+-->
+
+The keyboard command to save a document on a Mac is command-save.
+
+
+
+<!--
+  Insertion and Deletion:
+
+  Mark up the sentence so the word "four" is deleted, and "five" is inserted.
+-->
+
+The Miami Hurricanes have won four five national titles in football.
+
+
+
+<!--
+  Code (and escape characters):
+
+  This requires to bits of coding.
+
+  1. Mark up the content below so each "tag" is described as a piece of code.
+
+  2. Because the less than and greater than symbols have special meanings in HTML (as you know), we need to encode these if we want them to display on screen. Table 5-2 in the book shows how these can be coded.
+-->
+
+The basic tags used to create an HTML document are <html>, <head> and <body>.
+
+
+
+
+<!--
+  NOTE: In addition to being inline, the following also require attributes and values to be of value!
+-->
+
+
+<!--
+  Abbreviations:
+
+  Describe the abbreviations FBI, CIA and NSA. (If you're not sure what the letters stand for, look it up. :) ) Also describe tbsp. and tsp.
+-->
+
+You definitely do not want to mess with the FBI, CIA or NSA!
+
+The recipe calls for 3 tbsp. of butter and 3 tsp. of sugar.
+
+
+
+<!--
+  Dates and times:
+
+  The time tag is primarily used when a piece of software (i.e. a script, content management system) is marking up content for us. But this is still helpful to know.
+
+  Mark up the date, time below. Be sure to include the 'datetime' attribute and the proper value.
+-->
+
+Saturday's football game will begin at 3 p.m.
+
+The game has been rescheduled for September 25, 2020.
+
+The deadline is Friday, September 18, 2020, 6 p.m.
+
+
+<!--
+  Machine-readable data:
+
+  Like datetime, the data tag is more likely to be applied through software than by hand. Still, helpful to be aware of!
+
+  Mark up the values with numeric information as values for the "value" attribute.
+-->
+
+There are three hundred cats on the island.
