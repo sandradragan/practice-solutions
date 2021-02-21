@@ -1,0 +1,63 @@
+
+header, nav, main, footer {
+  border: 1px solid #222;
+  background-color: #bbb;
+  padding: 1rem;
+}
+
+section, article, aside, address {
+  border: 1px dotted #222;
+  background-color: #ccc;
+  padding: 1rem;
+}
+
+article, address {
+  border: 1px dotted #222;
+  background-color: #ddd;
+  padding: 1rem;
+}
+
+aside {
+  border: 1px dotted #222;
+  background-color: #eee;
+  padding: 1rem;
+}
+
+header:before, nav:before, main:before, section:before, article:before, aside:before, footer:before, address:before {
+  color: #666;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+header:before {
+  content: "<header>";
+}
+
+nav:before {
+  content: "<nav>";
+}
+
+main:before {
+  content: "<main>";
+}
+
+section:before {
+  content: "<section>";
+}
+
+article:before {
+  content: "<article>";
+}
+
+aside:before {
+  content: "<aside>";
+}
+
+footer:before {
+  content: "<footer>";
+}
+
+address:before {
+  content: "<address>";
+}
