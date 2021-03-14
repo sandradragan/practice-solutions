@@ -1,0 +1,55 @@
+body {
+  color: #222;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: rgb(233,87,80);
+}
+
+a:visited {
+  color: rgb(15,97,165);
+}
+
+header {
+  font-size: 24px;
+}
+
+nav {
+  font-style: italic;
+}
+
+#preamble,
+#articles,
+#amendments {
+  background-color: #eee;
+}
+
+/*
+  It's perfectly fine to have written each of the above selectors
+  separately, for instance:
+
+
+    #preamble {
+      background-color: #eee;
+    }
+
+    #articles {
+      background-color: #eee;
+    }
+
+    #amendments {
+      background-color: #eee;
+    }
+
+
+  ... however, when you see a pattern like this where you have multiple
+  selectors using the same declaration(s), you should try to combine them (if
+  possible).
+
+*/
+
+.bill-of-rights {
+  background-color: #ccc;
+}
