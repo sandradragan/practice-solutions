@@ -1,0 +1,19 @@
+/* 02-overflow styling */
+
+section {
+  display: inline-block;
+  border: 1px dotted #999;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+#cat-text {
+  border-bottom-color: red;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */

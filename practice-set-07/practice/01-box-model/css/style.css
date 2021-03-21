@@ -1,0 +1,17 @@
+/* 01-box-model styling */
+
+section {
+  background-color: #eee;
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
+}
+
+p {
+  margin: 0;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */

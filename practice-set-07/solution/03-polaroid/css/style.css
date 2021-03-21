@@ -1,0 +1,18 @@
+/* 03-polaroid styling */
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+figure {
+  margin: 0;                     /* removes default margin */
+  border: 1px solid #999;
+  padding: 20px 20px 45px 20px;  /* your numbers may vary */
+  width: 500px;
+}
+
+figcaption {
+  margin-top: 10px;
+}

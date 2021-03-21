@@ -1,0 +1,71 @@
+/* 01-box-model styling */
+
+section {
+  background-color: #eee;
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
+}
+
+p {
+  margin: 0;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */
+
+#left,
+#right {
+  border: 1px solid #222;
+}
+
+/*
+  This can also be written as...
+
+    section {
+      border: 1px solid #222;
+    }
+
+  ...because it would also target the sections we're trying to style.
+*/
+
+
+#left {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+  /* Shorthand:
+
+    padding: 10px 20px;
+
+  */
+}
+
+/*
+  Remember: Padding appears *within* the border and separates the
+  content from the border. Because background colors are applied to
+  padding, it will appear as if the background has "expanded."
+*/
+
+#right {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+  /* Shorthand:
+
+    margin: 10px 20px;
+
+  */
+}
+
+/*
+  Remember: Margin is applied on the outside of a border and separates
+  elements from one another. Background colors are not impacted by the
+  application of a margin.
+*/

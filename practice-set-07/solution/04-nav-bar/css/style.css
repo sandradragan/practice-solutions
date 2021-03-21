@@ -1,0 +1,29 @@
+/* 04-nav-bar styling */
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*
+  The following two rules are the bare minimum for turning a list into
+  a navigation bar. There are many more properties which should be
+  applied to make the design of this nav bar more functional.
+
+  For instance, there should be more whitespace between the menu items.
+  This can be accomplished using the margin property and applying it
+  only to the right side of each li element.
+
+  Apply the alternative style sheet to see an example of this.
+*/
+
+nav ul {
+  padding-left: 0;        /* removes default padding */
+  list-style-type: none;  /* removes bullets */
+}
+
+nav li {
+  display: inline-block;
+}

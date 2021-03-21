@@ -1,0 +1,56 @@
+/* 03-polaroid alternate styling */
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+figure {
+  margin: 0;                     /* removes default margin */
+  border: 1px solid #999;
+  padding: 20px 20px 45px 20px;  /* your numbers may vary */
+  box-shadow: 5px 5px 10px 3px #ccc;
+  max-width: 500px;
+}
+
+img {
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/*
+  A quick note about the above two CSS rules. Notice I have changed the
+  'width' property to 'max-width' in the figure rule, and img includes
+  a 'width' property.
+
+  What I am doing here is making this responsive so if a browser window
+  is smaller than 500px, the entire "Polaroid" and the image within
+  will adjust its size to fit the window.
+
+  I don't expect anyone to be trying this right now, but it's something
+  to be aware of as your skills grow! :)
+*/
+
+
+figcaption {
+  font-family: cursive;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+figcaption span {
+  color: #ccc;
+  font-family: sans-serif;
+  font-size: 8px;
+  display: block;
+}
+
+/*
+  This is a perfect example of using the 'span' tag!
+
+  In the figcaption, I don't want to describe the photo credit in any
+  specific way. I don't need to emphasize or strongly emphasize it. I
+  just want to style it. In order to do that, I need to mark it up so
+  I am able to "target" it for styling, so 'span' is my best option.
+*/

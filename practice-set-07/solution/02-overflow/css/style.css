@@ -1,0 +1,67 @@
+/* 02-overflow styling */
+
+section {
+  display: inline-block;
+  border: 1px dotted #999;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+#cat-text {
+  border-bottom-color: red;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */
+
+
+/*
+  In each of these cases, the content within exceeds the box which
+  contains it.
+*/
+
+#cat-01 {
+  overflow: hidden;
+}
+
+/*
+  When overflow is set to `auto`, any excess content will not be
+  visible. It still exists (you can prove this by hovering over the
+  image in your browser's developer tools), it just isn't appearing
+  on the screen.
+*/
+
+#cat-02 {
+  overflow: scroll;
+}
+
+/*
+  When overflow is set to `scroll`, excess content is available to
+  the user through the use of scroll bars. Only the scroll bars which
+  are necessary will be displayed.
+
+  In this case, the photo does not exceed the width of the container,
+  so there is no horizontal scroll bar. However, the 'track' for a
+  scroll bar still appears. Because the image exceeds the height of
+  the container, a vertical scroll bar appears.
+*/
+
+#cat-03 {
+  overflow: auto;
+}
+
+#cat-04 {
+  overflow: auto;
+}
+
+/*
+  When overflow is set to `auto`, the browser determines whether
+  scroll bars are necessary. In the case of the first, the image
+  exceeds the width and height, so both scroll bars appear. In
+  the second, however, it does not exeed the dimensions of the
+  container, so no scroll bars -- or tracks -- appear.
+*/
