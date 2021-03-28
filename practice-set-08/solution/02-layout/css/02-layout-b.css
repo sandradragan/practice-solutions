@@ -1,0 +1,65 @@
+/* 02-layout-b.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */
+
+#wrapper {
+  max-width: 960px;
+	margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+header,
+nav,
+footer {
+  background-color: #eee;
+}
+
+header, footer {
+  padding-left: 10px;
+  grid-column: 1 / -1;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "welcome      welcome"
+    "coming-soon  cats";
+  grid-gap: 20px;
+}
+
+section {
+  padding: 10px;
+}
+
+
+#welcome {
+  grid-area: welcome;
+}
+
+#coming-soon {
+  grid-area: coming-soon;
+}
+
+#cats {
+  grid-area: cats;
+}

@@ -1,0 +1,34 @@
+/* 02-three-columns.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */
+
+#wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: 15px;
+}
+
+section {
+	padding: 10px;
+}

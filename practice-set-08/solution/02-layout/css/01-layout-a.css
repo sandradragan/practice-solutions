@@ -1,0 +1,60 @@
+/* 01-layout-a.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */
+
+#wrapper {
+	/* centers wrapper */
+	max-width: 960px;
+	margin: 0 auto;
+
+	/* applies grid */
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 20px;
+}
+
+h1,
+p,
+ul {
+	margin: 0;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+header,
+nav,
+footer {
+	background-color: #eee;
+}
+
+header,
+footer {
+	grid-column: 1 / -1;
+
+	/* Or... */
+	/* grid-column: 1 / 3; */
+
+	/* Or... */
+	/* grid-column: 1 / span 2; */
+}
+
+header,
+nav,
+section,
+footer {
+	padding: 10px;
+}

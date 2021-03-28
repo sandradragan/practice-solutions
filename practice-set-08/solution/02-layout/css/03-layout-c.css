@@ -1,0 +1,76 @@
+/* 03-layout-c.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇         */
+/* **************************************** */
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 800px
+}
+
+h2 {
+  margin-top: 0;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-areas:
+    "alpha    bravo"
+    "charlie  delta";
+}
+
+section {
+  padding: 10px;
+  background-color: transparent;
+}
+
+#alpha {
+  grid-area: alpha;
+}
+
+#bravo {
+  grid-area: bravo;
+}
+
+#charlie {
+  grid-area: charlie;
+}
+
+#delta {
+  grid-area: delta;
+}
+
+#fancy-bg {
+  background: url("../img/natural-white.png");
+  grid-column: alpha / bravo;
+  grid-row: alpha / charlie;
+  position: relative;
+  z-index: -1;
+}
+
+/*
+  Wouldn't it be easier to NOT add the div in HTML to just apply a
+  background image? Yes! It would make more sense to apply the
+  background image to main. ... But then you wouldn't get practice
+  positioning an element using existing grid lines! :)
+*/
