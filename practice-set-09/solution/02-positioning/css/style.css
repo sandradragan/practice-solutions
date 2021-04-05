@@ -1,0 +1,73 @@
+/* style.css */
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* Step 2: */
+#relative em {
+  background-color: #ccc;
+  position: relative;
+  top: -20px;  /* "20 pixels FROM the top" moves it up */
+  left: 30px;  /* "30 pixels FROM the left" moves it right */
+}
+
+
+/* Step 3: */
+header {
+  margin-top: 72px;
+}
+
+nav {
+  background-color: rgb(219,81,73);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+/* Step 4: */
+article {
+  position: relative;
+  min-height: 500px;
+  border: 2px solid #222;
+}
+
+#red,
+#yellow,
+#green,
+#blue {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+#red {
+  background-color: red;
+  bottom: 0;
+  right: 20px;
+}
+
+#yellow {
+  background-color: yellow;
+  top: 20px;
+  right: 0;
+}
+
+#green {
+  background-color: green;
+  top: 20px;
+  left: 20px;
+}
+
+#blue {
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+}

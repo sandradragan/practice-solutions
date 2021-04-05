@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(242,87,30);
+}
+
+/*
+  Note: Your margins may be bigger/smaller than 16px; I chose this
+  to make the whitespace proportional to the font size.
+*/
+
+section {
+  border: 1px solid #222;
+  width: 600px;
+  clear: both;
+  overflow: auto;
+  margin-bottom: 16px;
+}
+
+section p {
+  margin-top: 0;
+}
+
+#box01,
+#box03 {
+  float: left;
+  margin-right: 16px;
+}
+
+#box02 {
+  float: right;
+  margin-left: 16px;
+}
+
+.clear-me {
+  clear: left;
+}
